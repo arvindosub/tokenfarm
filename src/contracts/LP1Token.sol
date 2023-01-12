@@ -1,8 +1,8 @@
 pragma solidity ^0.5.0;
 
-contract LPToken {
-    string public name = "LP Token";
-    string public symbol = "LP";
+contract LP1Token {
+    string public name = "LP1 Token";
+    string public symbol = "LP1";
     uint256 public totalSupply = 1000000000000000000000000; // 1 million tokens
     uint8 public decimals = 18;
 
@@ -41,7 +41,8 @@ contract LPToken {
 
     function transferFrom(address _from, address _to, uint256 _value) public returns (bool success) {
         require(_value <= balanceOf[_from]);
-        require(_value <= allowance[_from][msg.sender]);
+        //require(_value <= allowance[_from][msg.sender]);
+        require(tx.origin == _from, 'you do not own these tokens...');
         balanceOf[_from] -= _value;
         balanceOf[_to] += _value;
         allowance[_from][msg.sender] -= _value;
