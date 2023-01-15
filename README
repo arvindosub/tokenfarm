@@ -1,230 +1,47 @@
-Compiling your contracts...
-===========================
-> Compiling .\src\contracts\LP0Token.sol
-> Compiling .\src\contracts\LP1Token.sol
-> Compiling .\src\contracts\LP2Token.sol
-> Artifacts written to C:\Users\arvin\Documents\1Personal\Education\Code Workspace\tokenfarm\src\abis
-> Compiled successfully using:
-   - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
+LP TOKEN FARMING DAPP
+
+<< DO NOTE THAT TRANSACTIONS TAKE SEVERAL SECONDS TO COMPLETE >>
+<< REFRESH THE PAGE EVERY 15 SECONDS TO SEE IF IT IS COMPLETE >>
+<< YOU CAN KEEP TRACK OF THEM ON THE METAMASK ACTIVITY TAB >>
+<< YOU CAN ALSO SPEED UP THE TRANSACTION FROM THE METAMASK ACTIVITY TAB ENTRY >>
 
 
+Accessing the DApp
+- Web URL: https://arvindosub.github.io/tokenfarm/
+- Connect using your MetaMask wallet on the Goerli test network
 
-Migrations dry-run (simulation)
-===============================
-> Network name:    'goerli-fork'
-> Network id:      5
-> Block gas limit: 30000000 (0x1c9c380)
+Adding Tokens to MetaMask Wallet
+- Import LP/reward tokens on MetaMask from the following contract addresses
+LP0: 0xa21ba940ADc263C05d2E1f5352b9C813677AE652
+LP1: 0xA9ACD1f4Cc7065C53eC4f60F1245F39c21f11029
+LP2: 0x7b59cFCc8A21391Ee8B12b89789F1491e7314b0B
+CROP: 0x65B109E374b69ae5D515A85c88DDD89A3838C68F
+- 'Buy' new LP tokens on the DApp
+- LP balances will be updated on the MetaMask wallet
 
+Backend
+- Smart contracts deployed to Goerli test network
+Frontend
+- React Application
 
-1_initial_migration.js
-======================
-
-   Deploying 'Migrations'
-   ----------------------
-   > block number:        8300302
-   > block timestamp:     1673551928
-   > account:             0x54aC238d006748bc03AccdDABc130413948Bc1cC
-   > balance:             0.2658213332
-   > gas used:            210237 (0x3353d)
-   > gas price:           2 gwei
-   > value sent:          0 ETH
-   > total cost:          0.000420474 ETH
-
-   -------------------------------------
-   > Total cost:         0.000420474 ETH
-
-
-2_deploy_contracts.js
-=====================
-
-   Deploying 'LP0Token'
-   --------------------
-   > block number:        8300304
-   > block timestamp:     1673551960
-   > account:             0x54aC238d006748bc03AccdDABc130413948Bc1cC
-   > balance:             0.2644200812
-   > gas used:            673263 (0xa45ef)
-   > gas price:           2 gwei
-   > value sent:          0 ETH
-   > total cost:          0.001346526 ETH
-
-
-   Deploying 'LP1Token'
-   --------------------
-   > block number:        8300305
-   > block timestamp:     1673551997
-   > account:             0x54aC238d006748bc03AccdDABc130413948Bc1cC
-   > balance:             0.2630735552
-   > gas used:            673263 (0xa45ef)
-   > gas price:           2 gwei
-   > value sent:          0 ETH
-   > total cost:          0.001346526 ETH
-
-
-   Deploying 'LP2Token'
-   --------------------
-   > block number:        8300306
-   > block timestamp:     1673552033
-   > account:             0x54aC238d006748bc03AccdDABc130413948Bc1cC
-   > balance:             0.2617270292
-   > gas used:            673263 (0xa45ef)
-   > gas price:           2 gwei
-   > value sent:          0 ETH
-   > total cost:          0.001346526 ETH
-
-
-   Deploying 'CropToken'
-   ---------------------
-   > block number:        8300307
-   > block timestamp:     1673552069
-   > account:             0x54aC238d006748bc03AccdDABc130413948Bc1cC
-   > balance:             0.2603902372
-   > gas used:            668396 (0xa32ec)
-   > gas price:           2 gwei
-   > value sent:          0 ETH
-   > total cost:          0.001336792 ETH
-
-
-   Deploying 'TokenFarm'
-   ---------------------
-   > block number:        8300308
-   > block timestamp:     1673552510
-   > account:             0x54aC238d006748bc03AccdDABc130413948Bc1cC
-   > balance:             0.2556623012
-   > gas used:            2363968 (0x241240)
-   > gas price:           2 gwei
-   > value sent:          0 ETH
-   > total cost:          0.004727936 ETH
-
-   -------------------------------------
-   > Total cost:         0.010104306 ETH
-
-
-Summary
-=======
-> Total deployments:   6
-> Final cost:          0.01052478 ETH
-
-
-
-
-
-Starting migrations...
-======================
-> Network name:    'goerli'
-> Network id:      5
-> Block gas limit: 30000000 (0x1c9c380)
-
-
-1_initial_migration.js
-======================
-
-   Deploying 'Migrations'
-   ----------------------
-   > transaction hash:    0x953b3b677e759f5048f40954b2de89bedb2da50d02511834d7f0e80ad8dbd293
-   > Blocks: 1            Seconds: 5
-   > contract address:    0x875F89949085B172117538846C19000f4575f074
-   > block number:        8300342
-   > block timestamp:     1673552556
-   > account:             0x54aC238d006748bc03AccdDABc130413948Bc1cC
-   > balance:             0.2617110672
-   > gas used:            226537 (0x374e9)
-   > gas price:           20 gwei
-   > value sent:          0 ETH
-   > total cost:          0.00453074 ETH
-
-
-   > Saving migration to chain.
-   > Saving artifacts
-   -------------------------------------
-   > Total cost:          0.00453074 ETH
-
-
-2_deploy_contracts.js
-=====================
-
-   Deploying 'LP0Token'
-   --------------------
-   > transaction hash:    0x99c0f861215718dc7a6d88a4bf0286fb2dca2e2c5ec04866177e33e691530b19
-   > Blocks: 0            Seconds: 17
-   > contract address:    0xa21ba940ADc263C05d2E1f5352b9C813677AE652
-   > block number:        8300344
-   > block timestamp:     1673552592
-   > account:             0x54aC238d006748bc03AccdDABc130413948Bc1cC
-   > balance:             0.2456825472
-   > gas used:            755663 (0xb87cf)
-   > gas price:           20 gwei
-   > value sent:          0 ETH
-   > total cost:          0.01511326 ETH
-
-
-   Deploying 'LP1Token'
-   --------------------
-   > transaction hash:    0x45db5f5bb2438551bebad13e995a71bc11e2ea09ee1ede7e11c062b8c123ad5c
-   > Blocks: 6            Seconds: 109
-   > contract address:    0xA9ACD1f4Cc7065C53eC4f60F1245F39c21f11029
-   > block number:        8300351
-   > block timestamp:     1673552712
-   > account:             0x54aC238d006748bc03AccdDABc130413948Bc1cC
-   > balance:             0.2305692872
-   > gas used:            755663 (0xb87cf)
-   > gas price:           20 gwei
-   > value sent:          0 ETH
-   > total cost:          0.01511326 ETH
-
-
-   Deploying 'LP2Token'
-   --------------------
-   > transaction hash:    0xd42e2245e35ef8def4961c969846cb0ae23f0c5da2ac3d1e5db184ffceb2c43c
-   > Blocks: 2            Seconds: 17
-   > contract address:    0x7b59cFCc8A21391Ee8B12b89789F1491e7314b0B
-   > block number:        8300353
-   > block timestamp:     1673552736
-   > account:             0x54aC238d006748bc03AccdDABc130413948Bc1cC
-   > balance:             0.2154560272
-   > gas used:            755663 (0xb87cf)
-   > gas price:           20 gwei
-   > value sent:          0 ETH
-   > total cost:          0.01511326 ETH
-
-
-   Deploying 'CropToken'
-   ---------------------
-   > transaction hash:    0x4e28afe2ba2ea332d198da2e83ca0bb7be06ee915a48fa8fd700cd00edc6975c
-   > Blocks: 4            Seconds: 37
-   > contract address:    0x65B109E374b69ae5D515A85c88DDD89A3838C68F
-   > block number:        8300357
-   > block timestamp:     1673552784
-   > account:             0x54aC238d006748bc03AccdDABc130413948Bc1cC
-   > balance:             0.2004401072
-   > gas used:            750796 (0xb74cc)
-   > gas price:           20 gwei
-   > value sent:          0 ETH
-   > total cost:          0.01501592 ETH
-
-
-   Deploying 'TokenFarm'
-   ---------------------
-   > transaction hash:    0x4ea34e80b1682306766f90fec249d223ce245508f8a1c523cc83b7c5af2c8bda
-   > Blocks: 2            Seconds: 37
-   > contract address:    0x96A5Db68a9F17316736CEd99F891B51f63fD621a
-   > block number:        8300360
-   > block timestamp:     1673552832
-   > account:             0x54aC238d006748bc03AccdDABc130413948Bc1cC
-   > balance:             0.1497247472
-   > gas used:            2535768 (0x26b158)
-   > gas price:           20 gwei
-   > value sent:          0 ETH
-   > total cost:          0.05071536 ETH
-
-
-   > Saving migration to chain.
-   > Saving artifacts
-   -------------------------------------
-   > Total cost:          0.11107106 ETH
-
-
-Summary
-=======
-> Total deployments:   6
-> Final cost:          0.1156018 ETH
+Functionality
+- 4 Tokens
+   Liquidity Tokens: LP0, LP1, LP2
+   Reward Token: CROP
+- TokenFarm
+   Buy LP Tokens:
+      - using other forms of liquidity
+      - for testing this is enabled for free
+      - LP tokens sent to your wallet
+   Stake/Withdraw LP Tokens from Wallet:
+      - LP tokens moved from wallet balance to farm stake
+      - also added to overall pool
+      - LP tokens can be withdrawn from pool any time
+   Receive CROP Rewards:
+      - transactions trigger block creation on the Goerli network
+      - each block creation grants 200 reward tokens to entire pool
+      - 200 reward tokens are split 50:30:20 between LP0:LP1:LP2 respectively
+      - individuals receive rewards based on % stake of the pool for each respective LP token
+   Harvest Rewards:
+      - reward tokens accumulate in farm account
+      - can be harvested and moved to wallet to be used elsewhere
