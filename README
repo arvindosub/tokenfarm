@@ -2,9 +2,7 @@ LP TOKEN FARMING DAPP
 
 << DO NOTE THAT TRANSACTIONS TAKE SEVERAL SECONDS TO COMPLETE >>
 << REFRESH THE PAGE EVERY 15 SECONDS TO SEE IF IT IS COMPLETE >>
-<< YOU CAN KEEP TRACK OF THEM ON THE METAMASK ACTIVITY TAB >>
-<< YOU CAN ALSO SPEED UP THE TRANSACTION FROM THE METAMASK ACTIVITY TAB ENTRY >>
-
+<< TRACK/SPEED-UP AT THE METAMASK ACTIVITY TAB IF REQUIRED>>
 
 Accessing the DApp
 - Web URL: https://arvindosub.github.io/tokenfarm/
@@ -21,6 +19,7 @@ CROP: 0x65B109E374b69ae5D515A85c88DDD89A3838C68F
 
 Backend
 - Smart contracts deployed to Goerli test network
+- Refer to deploy-records-goerli file for contract addresses
 Frontend
 - React Application
 
